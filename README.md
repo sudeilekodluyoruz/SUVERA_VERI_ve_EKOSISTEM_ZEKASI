@@ -4,7 +4,7 @@
 
 SUVERA, 2016–2025 dönemindeki küresel özel yapay zekâ yatırımını ülke bazında inceleyen etkileşimli bir **Streamlit** web uygulamasıdır. Yatırım eğilimlerini, Türkiye'nin dünya içindeki konumunu ve makine öğrenmesiyle üretilen yatırım senaryolarını tek arayüzde sunar.
 
-
+![Genel Bakış](images/01-genel-bakis.png)
 
 ## İçindekiler
 
@@ -34,26 +34,26 @@ Toplam yatırım, ülke sayısı ve dönem özet kartları; yıllık yatırım e
 ### Türkiye Profili
 Türkiye'nin toplam ve kişi başı yapay zekâ yatırımı, dünya değeriyle karşılaştırma ve 2023 kalkınma göstergelerinin dünya medyanıyla kıyaslanması. Kaynakta olmayan veri sıfır sayılmaz, **"veri yok"** olarak gösterilir.
 
-![Türkiye Profili](docs/screenshots/02-turkiye-profili.png)
+![Türkiye Profili](images/02-turkiye-profili.png)
 
 ### Yatırım Tahmini
 Ülke ve tahmin yılı seçilir; önceki yılın kalkınma göstergeleri forma otomatik gelir ve düzenlenebilir. Eksik göstergeler eğitim verisinin medyanıyla doldurulur ve kullanıcıya açıkça bildirilir.
 
-![Yatırım Tahmini](docs/screenshots/03-yatirim-tahmini.png)
+![Yatırım Tahmini](images/03-yatirim-tahmini.png)
 
-![Senaryo tahmini](docs/screenshots/04-tahmin-sonucu.png)
+![Senaryo tahmini](images/04-tahmin-sonucu.png)
 
 ### Model Performansı
 Modellerin zamansal doğrulama ve nihai test sonuçları (MAE, RMSE, R²), gerçek–tahmin dağılım grafiği ve en yüksek mutlak hataya sahip 15 kayıt.
 
-![Model Performansı](docs/screenshots/05-model-performansi.png)
+![Model Performansı](images/05-model-performansi.png)
 
-![Gerçek ve tahmin edilen yatırım tutarları](docs/screenshots/06-gercek-tahmin-grafigi.png)
+![Gerçek ve tahmin edilen yatırım tutarları](images/06-gercek-tahmin-grafigi.png)
 
 ### Veri Merkezi
 Analizin dayandığı beş tabloyu listeler; yıl ve ülke koduna göre filtreleme ve CSV indirme sağlar.
 
-![Veri Merkezi](docs/screenshots/08-veri-merkezi.png)
+![Veri Merkezi](images/08-veri-merkezi.png)
 
 ## Veri kaynakları ve veri modeli
 
@@ -146,7 +146,7 @@ python 02_temel_bulgular.py        # temel sayıları yazdırır
 │   └── src/
 │       ├── data.py       # veri yükleme
 │       └── model.py      # model eğitimi ve değerlendirme
-└── docs/screenshots/     # README ekran görüntüleri
+└── images/     # README ekran görüntüleri
 ```
 
 ## Sınırlamalar
