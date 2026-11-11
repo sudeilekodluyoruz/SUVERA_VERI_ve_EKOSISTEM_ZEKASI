@@ -4,7 +4,7 @@
 
 SUVERA, 2016–2025 dönemindeki küresel özel yapay zekâ yatırımını ülke bazında inceleyen etkileşimli bir **Streamlit** web uygulamasıdır. Yatırım eğilimlerini, Türkiye'nin dünya içindeki konumunu ve makine öğrenmesiyle üretilen yatırım senaryolarını tek arayüzde sunar.
 
-![Genel Bakış](docs/screenshots/01-genel-bakis.png)
+![Genel Bakış]
 
 ## İçindekiler
 
